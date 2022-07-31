@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 655px;
+  margin-left: 326px;
+  margin-bottom: 50px;
+  margin-top: -35px;
+}
+
+.list-item {
+  list-style: none;
+  color: white;
+}
+.button-small {
+  padding: 10px 30px;
+  /* margin-top: 0px; */
+  border: 2px solid #ba0cc5;
+  border-radius: 10px;
+  background: #ba0cc5;
+  color: white;
+  font-size: 14px;
+  margin-top: -77px;
+  float: right;
+  margin-right: 163px;
+}
+.navbar img {
+  margin-left: 80px;
+  height: 40px;
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+.nav {
+  border: 2px solid;
+  padding: 4px;
+  background: black;
+}
+.line {
+  border-left: 2px solid gray;
+  height: 50px;
+  margin-left: 300px;
+  margin-top: -63px;
+}
+.hero-heading {
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  width: 850px;
+  /* text-align: center; */
+  margin-left: 450px;
+  margin-top: 160px;
+  color: white;
+}
+.hero-description {
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-left: 0px;
+  padding: 12px;
+  color: white;
+}
+.button-large {
+  float: right;
+  margin-right: 675px;
+  margin-top: 20px;
+  padding: 16px 46px;
+  border: 2px solid rgb(186, 12, 197);
+  border-radius: 10px;
+  background: rgb(186, 12, 197);
+  color: white;
+}
+.container {
+  background-image: url(/assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
